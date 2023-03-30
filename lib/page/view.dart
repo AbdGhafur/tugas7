@@ -42,7 +42,7 @@ class _ViewState extends State<View> {
         _result = (4 / 5) * _inputUser;
     });
 
-    listViewItem.add(_result.toString());
+    listViewItem.add(_newValue.toString() + " : " + _result.toStringAsFixed(2));
   }
 
   @override
